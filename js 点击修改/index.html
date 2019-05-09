@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改</title>
+    <style>
+        li{
+            display: flex;
+            justify-content: flex-start;
+            align-content:space-around;
+        }
+        .text{
+            width: 200px;
+            height: 50px;
+            background: aquamarine;
+            line-height: 50px;
+        }
+        .inp{
+
+            width: 200px;
+            height: 50px;
+            border:solid 1px red;
+        }
+        .add{
+            display: block;
+            background: black;
+            color: white;
+            width: 80px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+        }
+        .show{
+            display: block;
+        }
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>
+        <p class="text show">请输入您要的内容</p>
+        <input type="text" class="inp hidden" placeholder="请输入您要的内容" />
+        <button class="add" id="xg">修改</button>
+    </li>
+</ul>
+
+<script>
+    let opt = false;
+    let oP = document.getElementsByClassName('text');
+    let oText = document.getElementsByClassName('inp');
+    let oBtn = document.querySelector('#xg');
+
+
+        oBtn.onClick = function () {
+            console.log(1);
+            // if( opt ){
+            //     oP.className="text hidden";
+            //     oText.className = "inp show";
+            //
+            // }else{
+            //     console.log('按钮关闭');
+            //     opt = !opt;
+            //     oBtn.innerHTML = "确定";
+            // }
+        }
+
+</script>
+</body>
+</html>

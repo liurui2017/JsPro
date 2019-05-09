@@ -10,8 +10,22 @@
     </div>
 
     <script>
+        // window顶层对象
+        // console.log(this)
 
-
+        let liu = {
+            x:function(){
+                console.log(this)
+            },
+            y:{
+                ss:function () {
+                    console.log(this === liu.y)  //true
+                }
+            }
+        };
+        // liu.x();
+        liu.y.ss();
+        // this指向liu.y
     </script>
 </body>
 </html>
