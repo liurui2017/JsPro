@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f(x,y) {
+        console.log(x);
+        console.log(y);
+        console.log(this);
+    }
+    // 参数有n 个，第一个是this指向
+    f.call(document,4,5);
+    // 参数2个。第二个是数组
+    f.apply(document,[1,3]);
+    // 改变this指向并不自执行，需要触发
+    f.bind(document)()
+</script>
+</body>
+</html>
