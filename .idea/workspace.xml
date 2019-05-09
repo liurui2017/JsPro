@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5278004c-456c-4b29-b5aa-3de66eea6f6f" name="默认的" comment="2019/05/09-15：32">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bind-call-apply/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="5278004c-456c-4b29-b5aa-3de66eea6f6f" name="默认的" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -111,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557374832629</updated>
-      <workItem from="1557374833871" duration="11467000" />
+      <workItem from="1557374833871" duration="12083000" />
     </task>
     <task id="LOCAL-00001" summary="2019/05/09">
       <created>1557378348256</created>
@@ -127,11 +124,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557387150946</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2019/05/09-15：32">
+      <created>1557391006375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557391006375</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11467000" />
+    <option name="totallyTimeSpent" value="12083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -143,7 +147,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="19" width="1400" height="820" extended-state="0" />
+    <frame x="200" y="19" width="1400" height="820" extended-state="1" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14464024" />
