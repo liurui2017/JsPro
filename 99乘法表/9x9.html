@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9x9</title>
+    <style>
+        .box{
+            display: inline-block;
+            width: 80px;
+            height: 30px;
+            border:solid 1px green;
+            padding: 0 5px;
+            margin: 5px;
+            text-align: center;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+<ul id="wrap">
+
+</ul>
+<script>
+    let oWrap = document.getElementById("wrap");
+
+    for( let i = 1 ; i < 10;i++){
+        for( let j = 1 ; j <= i; j++){
+            let result = i * j;
+            oWrap.innerHTML +=`<span class="box">${i}x${j} = ${i*j}</span>`
+        }
+        oWrap.innerHTML +=`<br>`
+    }
+</script>
+</body>
+</html>

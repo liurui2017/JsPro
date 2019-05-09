@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>click</title>
+    <style>
+        .box{
+            width: 50px;
+            height: 30px;
+            background: bisque;
+            text-align: center;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">点击事件</button>
+    <div id="wrap"></div>
+
+    <script>
+        let oWrap = document.getElementById('wrap');
+        let Btn = document.getElementById('btn');
+
+            Btn.onClick = function(){
+                // 创建文本节点
+                let text = document.createTextNode('子节点');
+                // 创建元素节点
+                let item = document.createElement('div');
+                item.classList.add('box');
+                // 将文本节点添加到元素节点
+                item.appendChild(text);
+                // 将元素节点添加到页面
+                oWrap.appendChild(item);
+            }
+    </script>
+</body>
+</html>
