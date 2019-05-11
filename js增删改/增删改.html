@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="wrap">
+    <p>112111</p>
+    <div>232323232</div>
+    <h3>55555555</h3>
+</div>
+<div id="box"></div>
+<script>
+    let oW =document.getElementById('wrap');
+    let oP = document.querySelectorAll('p');
+    let text = document.createTextNode('这是文本');
+    let box = document.getElementById('box')
+    // 添加
+    oW.appendChild( text )
+    // 删除
+    box.appendChild( oP[0] )
+    box.removeChild( oP[0] )
+
+
+
+</script>
+</body>
+</html>
